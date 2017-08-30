@@ -1,0 +1,15 @@
+digraph G {
+start_here [label="it's me (start here)"];
+start_here -> 2017;
+bloglife1 [label="create more blog"];
+bloglife2 [label="make more money"];
+bloglife3 [label="become rich"];
+life_goal1[label="married with someone"];
+life_goal2[label="have a baby"];
+life_goal3[label="happy life"];
+bloglife2 -> life_goal3
+2017 -> bloglife1 -> bloglife2 -> bloglife3;
+2017 -> life_goal1 -> life_goal2;
+node [shape=box,style=filled,color=".7 .3 1.0"];
+life_goal2 -> life_goal3
+}
