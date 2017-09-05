@@ -3,4 +3,4 @@
 ## Commands
 Command | Description
 --|--
-`dot-Tpng diagram.txt -o diagram.png` | Generate diagram
+`dot -Tpng diagram.txt -o diagram.png` | Generate diagram
